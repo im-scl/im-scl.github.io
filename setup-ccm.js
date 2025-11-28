@@ -1,4 +1,4 @@
-if (Game.lumpsTotal != 0) {
+if (Game.lumpsTotal = 0) {
     Game.lumpsTotal = 1;
     Game.toSave=true;
     location.reload();
