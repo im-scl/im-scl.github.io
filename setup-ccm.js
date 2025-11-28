@@ -1,8 +1,5 @@
-if (Game.lumpsTotal = 0) {
-    Game.lumpsTotal = 1;
-    Game.toSave=true;
-    location.reload();
-};
+Game.lumpsTotal = 1;
+Game.toSave=true;
 document.getElementById('support').remove();
 document.getElementById('smallSupport').remove();
 Game.priceIncrease = 1;
